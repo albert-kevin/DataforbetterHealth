@@ -1,0 +1,354 @@
+				**********************************************************
+				*                                                        *
+				*    The Intelligent Mining Machine: Audit report v12.19  *
+				*                                                        *
+				**********************************************************
+
+General Counts
+==============
+
+File Name: DB_V2
+
+Number of audited variables = 10
+
+Number of rows in dataset =  26009309
+
+ORDINAL Variables
+=================
+
+
+  1) Year
+    nModality= 16
+    Max Quantile limit= 40
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/Year_h.png
+
+                                                            Count        %
+                                                           Dataset    Dataset
+                                                          ---------- ---------
+   2002                                                    1686898        6.5
+   2003                                                    1705690        6.6
+   2004                                                    1714542        6.6
+   2005                                                    1690638        6.5
+   2006                                                    1691339        6.5
+   2007                                                    1622564        6.2
+   2008                                                    1586478        6.1
+   2009                                                    1579769        6.1
+   2010                                                    1562687        6.0
+   2011                                                    1599584        6.2
+   2012                                                    1622703        6.2
+   2013                                                    1605604        6.2
+   2014                                                    1559511        6.0
+   2015                                                    1604987        6.2
+   2016                                                    1595191        6.1
+   2017                                                    1581124        6.1
+
+  2) account_yy_ss
+    nModality= 32
+    Max Quantile limit= 40
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/account_yy_ss_h.png
+
+                                                            Count        %
+                                                           Dataset    Dataset
+                                                          ---------- ---------
+   20026                                                    834459        3.2
+   20027                                                    852439        3.3
+   20036                                                    848784        3.3
+   20037                                                    856906        3.3
+   20046                                                    863197        3.3
+   20047                                                    851345        3.3
+   20056                                                    858291        3.3
+   20057                                                    832347        3.2
+   20066                                                    825234        3.2
+   20067                                                    866105        3.3
+   20076                                                    833964        3.2
+   20077                                                    788600        3.0
+   20086                                                    795263        3.1
+   20087                                                    791215        3.0
+   20096                                                    790871        3.0
+   20097                                                    788898        3.0
+   20106                                                    780433        3.0
+   20107                                                    782254        3.0
+   20116                                                    794979        3.1
+   20117                                                    804605        3.1
+   20126                                                    822512        3.2
+   20127                                                    800191        3.1
+   20136                                                    809314        3.1
+   20137                                                    796290        3.1
+   20146                                                    769899        3.0
+   20147                                                    789612        3.0
+   20156                                                    791878        3.0
+   20157                                                    813109        3.1
+   20166                                                    810886        3.1
+   20167                                                    784305        3.0
+   20176                                                    794621        3.1
+   20177                                                    786503        3.0
+
+CONTINUOUS Variables
+====================
+
+
+  1) amount_not_reimb
+    Median= 0.74
+    Mean= 70.3783
+    stdDev= 1630.49
+    Min= -118298
+    Max= 3.437e+006
+    Number of different values= 305502
+    Max Quantile limit= 40
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/amount_not_reimb_q.png
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/amount_not_reimb_h.png
+
+                                                            Count        %
+                                                           Dataset    Dataset
+                                                          ---------- ---------
+     0.7 %-  0.7 %(            v<=-3.46945e-018)            175099        0.7
+    56.7 %- 56.7 %(         0<=v<=      1.84)             14580594       56.1
+    65.7 %- 65.7 %(      1.85<=v<=      4.38)              2333682        9.0
+    71.4 %- 71.4 %(      4.39<=v<=      7.34)              1487652        5.7
+    74.3 %- 74.3 %(      7.35<=v<=      9.61)               738094        2.8
+    77.1 %- 77.1 %(      9.62<=v<=     12.57)               747631        2.9
+    80.0 %- 80.0 %(     12.58<=v<=     17.01)               741363        2.9
+    82.9 %- 82.9 %(     17.02<=v<=     23.38)               746443        2.9
+    85.7 %- 85.7 %(     23.39<=v<=     33.34)               743021        2.9
+    88.6 %- 88.6 %(     33.35<=v<=     49.85)               742826        2.9
+    91.4 %- 91.4 %(     49.86<=v<=     80.65)               743230        2.9
+    94.3 %- 94.3 %(     80.66<=v<=    148.97)               743365        2.9
+    97.1 %- 97.1 %(    148.98<=v<=    376.71)               743175        2.9
+   100.0 %-100.0 %(    376.72<=v            )               743134        2.9
+
+  2) amount_reimb
+    Median= 1.87
+    Mean= 817.03
+    stdDev= 17223.8
+    Min= -2.07179e+006
+    Max= 4.53347e+006
+    Number of different values= 704494
+    Max Quantile limit= 40
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/amount_reimb_q.png
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/amount_reimb_h.png
+
+                                                            Count        %
+                                                           Dataset    Dataset
+                                                          ---------- ---------
+     1.2 %-  1.2 %(            v<=-1.73472e-018)            323619        1.2
+    67.3 %- 67.3 %(         0<=v<=     12.63)             17181554       66.1
+    73.1 %- 73.1 %(     12.64<=v<=     23.75)              1500429        5.8
+    76.9 %- 76.9 %(     23.76<=v<=     37.23)              1001378        3.9
+    80.8 %- 80.8 %(     37.24<=v<=     60.39)              1000479        3.8
+    82.7 %- 82.7 %(      60.4<=v<=     78.65)               499987        1.9
+    84.6 %- 84.6 %(     78.66<=v<=    104.29)               500340        1.9
+    86.5 %- 86.5 %(     104.3<=v<=    142.29)               500232        1.9
+    88.5 %- 88.5 %(     142.3<=v<=    201.19)               500175        1.9
+    90.4 %- 90.4 %(     201.2<=v<=    297.15)               500186        1.9
+    92.3 %- 92.3 %(    297.16<=v<=     468.6)               500208        1.9
+    94.2 %- 94.2 %(    468.61<=v<=    813.79)               500180        1.9
+    96.2 %- 96.2 %(     813.8<=v<=   1626.55)               500182        1.9
+    98.1 %- 98.1 %(   1626.56<=v<=    4730.2)               500174        1.9
+   100.0 %-100.0 %(   4730.22<=v            )               500186        1.9
+
+  3) quantity
+    Median= 20
+    Mean= 338.557
+    stdDev= 5393.23
+    Min= -3.77859e+006
+    Max= 9.02875e+006
+    Number of different values= 51971
+    Max Quantile limit= 40
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/quantity_q.png
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/quantity_h.png
+
+                                                            Count        %
+                                                           Dataset    Dataset
+                                                          ---------- ---------
+     2.0 %-  2.0 %(            v<=         0)               518209        2.0
+    42.7 %- 42.7 %(         1<=v<=        12)             10577118       40.7
+    53.0 %- 53.0 %(        13<=v<=        24)              2680303       10.3
+    59.7 %- 59.7 %(        25<=v<=        36)              1743647        6.7
+    66.6 %- 66.6 %(        37<=v<=        57)              1811155        7.0
+    69.8 %- 69.8 %(        58<=v<=        69)               817860        3.1
+    73.2 %- 73.2 %(        70<=v<=        89)               902185        3.5
+    76.6 %- 76.6 %(        90<=v<=       110)               864867        3.3
+    79.9 %- 79.9 %(       111<=v<=       143)               875824        3.4
+    83.3 %- 83.3 %(       144<=v<=       192)               883126        3.4
+    86.6 %- 86.6 %(       193<=v<=       264)               860525        3.3
+    90.0 %- 90.0 %(       265<=v<=       392)               871501        3.4
+    93.3 %- 93.3 %(       393<=v<=       646)               867725        3.3
+    96.7 %- 96.7 %(       647<=v<=      1406)               867880        3.3
+   100.0 %-100.0 %(      1407<=v            )               867384        3.3
+
+  4) realization_date
+    Median= 20093
+    Mean= 20093.1
+    stdDev= 46.9985
+    Min= 19891
+    Max= 20174
+    Number of different values= 123
+    Max Quantile limit= 40
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/realization_date_q.png
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/realization_date_h.png
+
+                                                            Count        %
+                                                           Dataset    Dataset
+                                                          ---------- ---------
+     5.9 %-  5.9 %(            v<=     20022)              1522877        5.9
+    12.4 %- 12.4 %(     20023<=v<=     20032)              1693659        6.5
+    18.8 %- 18.8 %(     20033<=v<=     20042)              1667052        6.4
+    26.4 %- 26.4 %(     20043<=v<=     20053)              1979747        7.6
+    32.9 %- 32.9 %(     20054<=v<=     20063)              1682252        6.5
+    39.0 %- 39.0 %(     20064<=v<=     20073)              1592089        6.1
+    45.0 %- 45.0 %(     20074<=v<=     20083)              1578433        6.1
+    52.8 %- 52.8 %(     20084<=v<=     20095)              2007658        7.7
+    58.9 %- 58.9 %(     20101<=v<=     20104)              1599835        6.2
+    66.5 %- 66.5 %(     20111<=v<=     20121)              1979079        7.6
+    72.6 %- 72.6 %(     20122<=v<=     20131)              1585769        6.1
+    78.7 %- 78.7 %(     20132<=v<=     20141)              1581577        6.1
+    86.6 %- 86.6 %(     20142<=v<=     20152)              2050935        7.9
+    92.6 %- 92.6 %(     20153<=v<=     20162)              1564749        6.0
+   100.0 %-100.0 %(     20163<=v            )              1923598        7.4
+
+  5) reimbt_cat_id
+    Median= 753723
+    Mean= 753249
+    stdDev= 4027.72
+    Min= 695052
+    Max= 767502
+    Number of different values= 527
+    Max Quantile limit= 40
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/reimbt_cat_id_q.png
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/reimbt_cat_id_h.png
+
+                                                            Count        %
+                                                           Dataset    Dataset
+                                                          ---------- ---------
+     0.5 %-  0.5 %(            v<=    750212)               124822        0.5
+    14.7 %- 14.7 %(    750724<=v<=    750816)              3696105       14.2
+    28.8 %- 28.8 %(    750820<=v<=    750886)              3670815       14.1
+    39.5 %- 39.5 %(    750890<=v<=    750993)              2787654       10.7
+    49.1 %- 49.1 %(    751004<=v<=    751682)              2497863        9.6
+    50.0 %- 50.0 %(    751741<=v<=    752706)               226538        0.9
+    54.4 %- 54.4 %(    753723<=v<=    753804)              1149302        4.4
+    58.2 %- 58.2 %(    753911<=v<=    756000)               985699        3.8
+    63.6 %- 63.6 %(    756022<=v<=    756066)              1394153        5.4
+    82.2 %- 82.2 %(    756081<=v<=    756302)              4837952       18.6
+    84.6 %- 84.6 %(    756324<=v<=    756604)               628826        2.4
+    98.8 %- 98.8 %(    756626<=v<=    757223)              3704295       14.2
+   100.0 %-100.0 %(    757245<=v<=    759463)               300553        1.2
+   100.0 %-100.0 %(    767502<=v            )                 4732        0.0
+
+NOMINAL Variables
+=================
+
+
+  1) Province
+    nModality= 11
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/Province_h.png
+
+                                                            Count        %
+                                                           Dataset    Dataset
+                                                          ---------- ---------
+   Anvers                                                  3552036       13.7
+   Bruxelles-Capitale                                      3373238       13.0
+   Flandre orientale                                       3144348       12.1
+   Flandre Occidentale                                     2952424       11.4
+   Hainaut                                                 2795325       10.7
+   Liège                                                   2777233       10.7
+   Brabant Flamand                                         2215797        8.5
+   Limbourg                                                1994491        7.7
+   Namur                                                   1490642        5.7
+   Brabant Wallon                                           887922        3.4
+   Luxembourg                                               825853        3.2
+
+  2) Type
+    nModality= 2
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/Type_h.png
+
+                                                            Count        %
+                                                           Dataset    Dataset
+                                                          ---------- ---------
+   Général                                                23656789       91.0
+   Psychiatrique                                           2352520        9.0
+
+  3) hosp_serv_id
+    nModality= 61
+  Graphical representation available in file file://C:/Users/A450283/Desktop/digitiser/dataforbetterhealth/data/DB_V2_univPlot/hosp_serv_id_h.png
+
+                                                            Count        %
+                                                           Dataset    Dataset
+                                                          ---------- ---------
+   220                                                     3369761       13.0
+   210                                                     3074454       11.8
+   990                                                     2169485        8.3
+   300                                                     2141718        8.2
+   490                                                     1870838        7.2
+   370                                                     1633640        6.3
+   620                                                     1130654        4.3
+   720                                                     1086486        4.2
+   730                                                     1064657        4.1
+   230                                                      988851        3.8
+   260                                                      777352        3.0
+   320                                                      768017        3.0
+   630                                                      687472        2.6
+   410                                                      655204        2.5
+   660                                                      528346        2.0
+   840                                                      516851        2.0
+   650                                                      514800        2.0
+   640                                                      486676        1.9
+   610                                                      378873        1.5
+   750                                                      292737        1.1
+   420                                                      224123        0.9
+   270                                                      212453        0.8
+   380                                                      207674        0.8
+   710                                                      183116        0.7
+   340                                                      162997        0.6
+   002                                                      133614        0.5
+   190                                                      125852        0.5
+   290                                                      109995        0.4
+   800                                                       96636        0.4
+   450                                                       66889        0.3
+   430                                                       52190        0.2
+   810                                                       47068        0.2
+   440                                                       42831        0.2
+   830                                                       41432        0.2
+   250                                                       37427        0.1
+   390                                                       36880        0.1
+   690                                                       32126        0.1
+   480                                                       15420        0.1
+   350                                                       11794        0.0
+   820                                                        9574        0.0
+   770                                                        9472        0.0
+   360                                                        5997        0.0
+   760                                                        3081        0.0
+   ZZZ                                                        1743        0.0
+   000                                                         590        0.0
+   740                                                         475        0.0
+   240                                                         251        0.0
+   310                                                         209        0.0
+   460                                                         203        0.0
+   470                                                          83        0.0
+   280                                                          67        0.0
+   400                                                          41        0.0
+   550                                                          35        0.0
+   330                                                          31        0.0
+   200                                                          29        0.0
+   790                                                          23        0.0
+   150                                                           8        0.0
+   970                                                           3        0.0
+   900                                                           2        0.0
+   930                                                           2        0.0
+   960                                                           1        0.0
+
+SUMMARY
+=======
+
+  #) Name (sort on type&name)                  %Miss      #Miss  #mod         Mean       stdDev       Median          min          max
+---------------------------------------------------------------------------------------------------------------------------------------
+  1) Year                                        0.00        0       16      2009.38       4.631        2009         2002         2017
+  2) account_yy_ss                               0.00        0       32      20100.3     46.3121       20097        20026        20177
+  3) amount_not_reimb                            0.00        0   305502      70.3783     1630.49        0.74      -118298   3.437e+006
+  4) amount_reimb                                0.00        0   704494       817.03     17223.8        1.87 -2.07179e+006 4.53347e+006
+  5) quantity                                    0.00        0    51971      338.557     5393.23          20 -3.77859e+006 9.02875e+006
+  6) realization_date                            0.00        0      123      20093.1     46.9985       20093        19891        20174
+  7) reimbt_cat_id                               0.00        0      527       753249     4027.72      753723       695052       767502
+  8) Province                                    0.00        0       12 
+  9) Type                                        0.00        0        3 
+ 10) hosp_serv_id                                0.00        0       62 

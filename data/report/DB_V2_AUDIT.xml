@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<TIM_Audit version='12.19'>
+	<GeneralStats
+		typeFile='DB_V2'
+		nLine='26009309'
+		nTarget='0'
+		countTarget='0'
+		nVar='10'
+		dateFormatted='Fri Jan 25 19:51:15 2019
+'
+		dateInt='1548442275'
+	/>
+	<DiscardedVars>
+	</DiscardedVars>
+	<OrdinalVariables>
+   <Var name='Year' nModality='16' idx='0' maxQuantileLimit='40' fileh='DB_V2_univPlot/Year_h.png'>
+		<Modality name='2002'  nOcc='1686898'/>
+		<Modality name='2003'  nOcc='1705690'/>
+		<Modality name='2004'  nOcc='1714542'/>
+		<Modality name='2005'  nOcc='1690638'/>
+		<Modality name='2006'  nOcc='1691339'/>
+		<Modality name='2007'  nOcc='1622564'/>
+		<Modality name='2008'  nOcc='1586478'/>
+		<Modality name='2009'  nOcc='1579769'/>
+		<Modality name='2010'  nOcc='1562687'/>
+		<Modality name='2011'  nOcc='1599584'/>
+		<Modality name='2012'  nOcc='1622703'/>
+		<Modality name='2013'  nOcc='1605604'/>
+		<Modality name='2014'  nOcc='1559511'/>
+		<Modality name='2015'  nOcc='1604987'/>
+		<Modality name='2016'  nOcc='1595191'/>
+		<Modality name='2017'  nOcc='1581124'/>
+  </Var>
+   <Var name='account_yy_ss' nModality='32' idx='1' maxQuantileLimit='40' fileh='DB_V2_univPlot/account_yy_ss_h.png'>
+		<Modality name='20026'  nOcc='834459'/>
+		<Modality name='20027'  nOcc='852439'/>
+		<Modality name='20036'  nOcc='848784'/>
+		<Modality name='20037'  nOcc='856906'/>
+		<Modality name='20046'  nOcc='863197'/>
+		<Modality name='20047'  nOcc='851345'/>
+		<Modality name='20056'  nOcc='858291'/>
+		<Modality name='20057'  nOcc='832347'/>
+		<Modality name='20066'  nOcc='825234'/>
+		<Modality name='20067'  nOcc='866105'/>
+		<Modality name='20076'  nOcc='833964'/>
+		<Modality name='20077'  nOcc='788600'/>
+		<Modality name='20086'  nOcc='795263'/>
+		<Modality name='20087'  nOcc='791215'/>
+		<Modality name='20096'  nOcc='790871'/>
+		<Modality name='20097'  nOcc='788898'/>
+		<Modality name='20106'  nOcc='780433'/>
+		<Modality name='20107'  nOcc='782254'/>
+		<Modality name='20116'  nOcc='794979'/>
+		<Modality name='20117'  nOcc='804605'/>
+		<Modality name='20126'  nOcc='822512'/>
+		<Modality name='20127'  nOcc='800191'/>
+		<Modality name='20136'  nOcc='809314'/>
+		<Modality name='20137'  nOcc='796290'/>
+		<Modality name='20146'  nOcc='769899'/>
+		<Modality name='20147'  nOcc='789612'/>
+		<Modality name='20156'  nOcc='791878'/>
+		<Modality name='20157'  nOcc='813109'/>
+		<Modality name='20166'  nOcc='810886'/>
+		<Modality name='20167'  nOcc='784305'/>
+		<Modality name='20176'  nOcc='794621'/>
+		<Modality name='20177'  nOcc='786503'/>
+  </Var>
+	</OrdinalVariables>
+	<ContinuousVariables>
+   <Var name='amount_not_reimb' nModality='305502' idx='2' median='0.74' Mean= '70.3783' stdDev= '1630.49' Min= '-118298' Max= '3.437e+006'  maxQuantileLimit='40' fileq='DB_V2_univPlot/amount_not_reimb_q.png' fileh='DB_V2_univPlot/amount_not_reimb_h.png'>
+		<Modality name='  0.7 %-  0.7 %(            v&lt;=-3.46945e-018)'  nOcc='175099'/>
+		<Modality name=' 56.7 %- 56.7 %(         0&lt;=v&lt;=      1.84)'  nOcc='14580594'/>
+		<Modality name=' 65.7 %- 65.7 %(      1.85&lt;=v&lt;=      4.38)'  nOcc='2333682'/>
+		<Modality name=' 71.4 %- 71.4 %(      4.39&lt;=v&lt;=      7.34)'  nOcc='1487652'/>
+		<Modality name=' 74.3 %- 74.3 %(      7.35&lt;=v&lt;=      9.61)'  nOcc='738094'/>
+		<Modality name=' 77.1 %- 77.1 %(      9.62&lt;=v&lt;=     12.57)'  nOcc='747631'/>
+		<Modality name=' 80.0 %- 80.0 %(     12.58&lt;=v&lt;=     17.01)'  nOcc='741363'/>
+		<Modality name=' 82.9 %- 82.9 %(     17.02&lt;=v&lt;=     23.38)'  nOcc='746443'/>
+		<Modality name=' 85.7 %- 85.7 %(     23.39&lt;=v&lt;=     33.34)'  nOcc='743021'/>
+		<Modality name=' 88.6 %- 88.6 %(     33.35&lt;=v&lt;=     49.85)'  nOcc='742826'/>
+		<Modality name=' 91.4 %- 91.4 %(     49.86&lt;=v&lt;=     80.65)'  nOcc='743230'/>
+		<Modality name=' 94.3 %- 94.3 %(     80.66&lt;=v&lt;=    148.97)'  nOcc='743365'/>
+		<Modality name=' 97.1 %- 97.1 %(    148.98&lt;=v&lt;=    376.71)'  nOcc='743175'/>
+		<Modality name='100.0 %-100.0 %(    376.72&lt;=v            )'  nOcc='743134'/>
+  </Var>
+   <Var name='amount_reimb' nModality='704494' idx='3' median='1.87' Mean= '817.03' stdDev= '17223.8' Min= '-2.07179e+006' Max= '4.53347e+006'  maxQuantileLimit='40' fileq='DB_V2_univPlot/amount_reimb_q.png' fileh='DB_V2_univPlot/amount_reimb_h.png'>
+		<Modality name='  1.2 %-  1.2 %(            v&lt;=-1.73472e-018)'  nOcc='323619'/>
+		<Modality name=' 67.3 %- 67.3 %(         0&lt;=v&lt;=     12.63)'  nOcc='17181554'/>
+		<Modality name=' 73.1 %- 73.1 %(     12.64&lt;=v&lt;=     23.75)'  nOcc='1500429'/>
+		<Modality name=' 76.9 %- 76.9 %(     23.76&lt;=v&lt;=     37.23)'  nOcc='1001378'/>
+		<Modality name=' 80.8 %- 80.8 %(     37.24&lt;=v&lt;=     60.39)'  nOcc='1000479'/>
+		<Modality name=' 82.7 %- 82.7 %(      60.4&lt;=v&lt;=     78.65)'  nOcc='499987'/>
+		<Modality name=' 84.6 %- 84.6 %(     78.66&lt;=v&lt;=    104.29)'  nOcc='500340'/>
+		<Modality name=' 86.5 %- 86.5 %(     104.3&lt;=v&lt;=    142.29)'  nOcc='500232'/>
+		<Modality name=' 88.5 %- 88.5 %(     142.3&lt;=v&lt;=    201.19)'  nOcc='500175'/>
+		<Modality name=' 90.4 %- 90.4 %(     201.2&lt;=v&lt;=    297.15)'  nOcc='500186'/>
+		<Modality name=' 92.3 %- 92.3 %(    297.16&lt;=v&lt;=     468.6)'  nOcc='500208'/>
+		<Modality name=' 94.2 %- 94.2 %(    468.61&lt;=v&lt;=    813.79)'  nOcc='500180'/>
+		<Modality name=' 96.2 %- 96.2 %(     813.8&lt;=v&lt;=   1626.55)'  nOcc='500182'/>
+		<Modality name=' 98.1 %- 98.1 %(   1626.56&lt;=v&lt;=    4730.2)'  nOcc='500174'/>
+		<Modality name='100.0 %-100.0 %(   4730.22&lt;=v            )'  nOcc='500186'/>
+  </Var>
+   <Var name='quantity' nModality='51971' idx='4' median='20' Mean= '338.557' stdDev= '5393.23' Min= '-3.77859e+006' Max= '9.02875e+006'  maxQuantileLimit='40' fileq='DB_V2_univPlot/quantity_q.png' fileh='DB_V2_univPlot/quantity_h.png'>
+		<Modality name='  2.0 %-  2.0 %(            v&lt;=         0)'  nOcc='518209'/>
+		<Modality name=' 42.7 %- 42.7 %(         1&lt;=v&lt;=        12)'  nOcc='10577118'/>
+		<Modality name=' 53.0 %- 53.0 %(        13&lt;=v&lt;=        24)'  nOcc='2680303'/>
+		<Modality name=' 59.7 %- 59.7 %(        25&lt;=v&lt;=        36)'  nOcc='1743647'/>
+		<Modality name=' 66.6 %- 66.6 %(        37&lt;=v&lt;=        57)'  nOcc='1811155'/>
+		<Modality name=' 69.8 %- 69.8 %(        58&lt;=v&lt;=        69)'  nOcc='817860'/>
+		<Modality name=' 73.2 %- 73.2 %(        70&lt;=v&lt;=        89)'  nOcc='902185'/>
+		<Modality name=' 76.6 %- 76.6 %(        90&lt;=v&lt;=       110)'  nOcc='864867'/>
+		<Modality name=' 79.9 %- 79.9 %(       111&lt;=v&lt;=       143)'  nOcc='875824'/>
+		<Modality name=' 83.3 %- 83.3 %(       144&lt;=v&lt;=       192)'  nOcc='883126'/>
+		<Modality name=' 86.6 %- 86.6 %(       193&lt;=v&lt;=       264)'  nOcc='860525'/>
+		<Modality name=' 90.0 %- 90.0 %(       265&lt;=v&lt;=       392)'  nOcc='871501'/>
+		<Modality name=' 93.3 %- 93.3 %(       393&lt;=v&lt;=       646)'  nOcc='867725'/>
+		<Modality name=' 96.7 %- 96.7 %(       647&lt;=v&lt;=      1406)'  nOcc='867880'/>
+		<Modality name='100.0 %-100.0 %(      1407&lt;=v            )'  nOcc='867384'/>
+  </Var>
+   <Var name='realization_date' nModality='123' idx='5' median='20093' Mean= '20093.1' stdDev= '46.9985' Min= '19891' Max= '20174'  maxQuantileLimit='40' fileq='DB_V2_univPlot/realization_date_q.png' fileh='DB_V2_univPlot/realization_date_h.png'>
+		<Modality name='  5.9 %-  5.9 %(            v&lt;=     20022)'  nOcc='1522877'/>
+		<Modality name=' 12.4 %- 12.4 %(     20023&lt;=v&lt;=     20032)'  nOcc='1693659'/>
+		<Modality name=' 18.8 %- 18.8 %(     20033&lt;=v&lt;=     20042)'  nOcc='1667052'/>
+		<Modality name=' 26.4 %- 26.4 %(     20043&lt;=v&lt;=     20053)'  nOcc='1979747'/>
+		<Modality name=' 32.9 %- 32.9 %(     20054&lt;=v&lt;=     20063)'  nOcc='1682252'/>
+		<Modality name=' 39.0 %- 39.0 %(     20064&lt;=v&lt;=     20073)'  nOcc='1592089'/>
+		<Modality name=' 45.0 %- 45.0 %(     20074&lt;=v&lt;=     20083)'  nOcc='1578433'/>
+		<Modality name=' 52.8 %- 52.8 %(     20084&lt;=v&lt;=     20095)'  nOcc='2007658'/>
+		<Modality name=' 58.9 %- 58.9 %(     20101&lt;=v&lt;=     20104)'  nOcc='1599835'/>
+		<Modality name=' 66.5 %- 66.5 %(     20111&lt;=v&lt;=     20121)'  nOcc='1979079'/>
+		<Modality name=' 72.6 %- 72.6 %(     20122&lt;=v&lt;=     20131)'  nOcc='1585769'/>
+		<Modality name=' 78.7 %- 78.7 %(     20132&lt;=v&lt;=     20141)'  nOcc='1581577'/>
+		<Modality name=' 86.6 %- 86.6 %(     20142&lt;=v&lt;=     20152)'  nOcc='2050935'/>
+		<Modality name=' 92.6 %- 92.6 %(     20153&lt;=v&lt;=     20162)'  nOcc='1564749'/>
+		<Modality name='100.0 %-100.0 %(     20163&lt;=v            )'  nOcc='1923598'/>
+  </Var>
+   <Var name='reimbt_cat_id' nModality='527' idx='6' median='753723' Mean= '753249' stdDev= '4027.72' Min= '695052' Max= '767502'  maxQuantileLimit='40' fileq='DB_V2_univPlot/reimbt_cat_id_q.png' fileh='DB_V2_univPlot/reimbt_cat_id_h.png'>
+		<Modality name='  0.5 %-  0.5 %(            v&lt;=    750212)'  nOcc='124822'/>
+		<Modality name=' 14.7 %- 14.7 %(    750724&lt;=v&lt;=    750816)'  nOcc='3696105'/>
+		<Modality name=' 28.8 %- 28.8 %(    750820&lt;=v&lt;=    750886)'  nOcc='3670815'/>
+		<Modality name=' 39.5 %- 39.5 %(    750890&lt;=v&lt;=    750993)'  nOcc='2787654'/>
+		<Modality name=' 49.1 %- 49.1 %(    751004&lt;=v&lt;=    751682)'  nOcc='2497863'/>
+		<Modality name=' 50.0 %- 50.0 %(    751741&lt;=v&lt;=    752706)'  nOcc='226538'/>
+		<Modality name=' 54.4 %- 54.4 %(    753723&lt;=v&lt;=    753804)'  nOcc='1149302'/>
+		<Modality name=' 58.2 %- 58.2 %(    753911&lt;=v&lt;=    756000)'  nOcc='985699'/>
+		<Modality name=' 63.6 %- 63.6 %(    756022&lt;=v&lt;=    756066)'  nOcc='1394153'/>
+		<Modality name=' 82.2 %- 82.2 %(    756081&lt;=v&lt;=    756302)'  nOcc='4837952'/>
+		<Modality name=' 84.6 %- 84.6 %(    756324&lt;=v&lt;=    756604)'  nOcc='628826'/>
+		<Modality name=' 98.8 %- 98.8 %(    756626&lt;=v&lt;=    757223)'  nOcc='3704295'/>
+		<Modality name='100.0 %-100.0 %(    757245&lt;=v&lt;=    759463)'  nOcc='300553'/>
+		<Modality name='100.0 %-100.0 %(    767502&lt;=v            )'  nOcc='4732'/>
+  </Var>
+	</ContinuousVariables>
+	<NominalVariables>
+   <Var name='Province' nModality='11' idx='7'  fileh='DB_V2_univPlot/Province_h.png'>
+		<Modality name='Anvers'  nOcc='3552036'/>
+		<Modality name='Bruxelles-Capitale'  nOcc='3373238'/>
+		<Modality name='Flandre orientale'  nOcc='3144348'/>
+		<Modality name='Flandre Occidentale'  nOcc='2952424'/>
+		<Modality name='Hainaut'  nOcc='2795325'/>
+		<Modality name='Liège'  nOcc='2777233'/>
+		<Modality name='Brabant Flamand'  nOcc='2215797'/>
+		<Modality name='Limbourg'  nOcc='1994491'/>
+		<Modality name='Namur'  nOcc='1490642'/>
+		<Modality name='Brabant Wallon'  nOcc='887922'/>
+		<Modality name='Luxembourg'  nOcc='825853'/>
+	</Var>
+   <Var name='Type' nModality='2' idx='8'  fileh='DB_V2_univPlot/Type_h.png'>
+		<Modality name='Général'  nOcc='23656789'/>
+		<Modality name='Psychiatrique'  nOcc='2352520'/>
+	</Var>
+   <Var name='hosp_serv_id' nModality='61' idx='9'  fileh='DB_V2_univPlot/hosp_serv_id_h.png'>
+		<Modality name='220'  nOcc='3369761'/>
+		<Modality name='210'  nOcc='3074454'/>
+		<Modality name='990'  nOcc='2169485'/>
+		<Modality name='300'  nOcc='2141718'/>
+		<Modality name='490'  nOcc='1870838'/>
+		<Modality name='370'  nOcc='1633640'/>
+		<Modality name='620'  nOcc='1130654'/>
+		<Modality name='720'  nOcc='1086486'/>
+		<Modality name='730'  nOcc='1064657'/>
+		<Modality name='230'  nOcc='988851'/>
+		<Modality name='260'  nOcc='777352'/>
+		<Modality name='320'  nOcc='768017'/>
+		<Modality name='630'  nOcc='687472'/>
+		<Modality name='410'  nOcc='655204'/>
+		<Modality name='660'  nOcc='528346'/>
+		<Modality name='840'  nOcc='516851'/>
+		<Modality name='650'  nOcc='514800'/>
+		<Modality name='640'  nOcc='486676'/>
+		<Modality name='610'  nOcc='378873'/>
+		<Modality name='750'  nOcc='292737'/>
+		<Modality name='420'  nOcc='224123'/>
+		<Modality name='270'  nOcc='212453'/>
+		<Modality name='380'  nOcc='207674'/>
+		<Modality name='710'  nOcc='183116'/>
+		<Modality name='340'  nOcc='162997'/>
+		<Modality name='002'  nOcc='133614'/>
+		<Modality name='190'  nOcc='125852'/>
+		<Modality name='290'  nOcc='109995'/>
+		<Modality name='800'  nOcc='96636'/>
+		<Modality name='450'  nOcc='66889'/>
+		<Modality name='430'  nOcc='52190'/>
+		<Modality name='810'  nOcc='47068'/>
+		<Modality name='440'  nOcc='42831'/>
+		<Modality name='830'  nOcc='41432'/>
+		<Modality name='250'  nOcc='37427'/>
+		<Modality name='390'  nOcc='36880'/>
+		<Modality name='690'  nOcc='32126'/>
+		<Modality name='480'  nOcc='15420'/>
+		<Modality name='350'  nOcc='11794'/>
+		<Modality name='820'  nOcc='9574'/>
+		<Modality name='770'  nOcc='9472'/>
+		<Modality name='360'  nOcc='5997'/>
+		<Modality name='760'  nOcc='3081'/>
+		<Modality name='ZZZ'  nOcc='1743'/>
+		<Modality name='000'  nOcc='590'/>
+		<Modality name='740'  nOcc='475'/>
+		<Modality name='240'  nOcc='251'/>
+		<Modality name='310'  nOcc='209'/>
+		<Modality name='460'  nOcc='203'/>
+		<Modality name='470'  nOcc='83'/>
+		<Modality name='280'  nOcc='67'/>
+		<Modality name='400'  nOcc='41'/>
+		<Modality name='550'  nOcc='35'/>
+		<Modality name='330'  nOcc='31'/>
+		<Modality name='200'  nOcc='29'/>
+		<Modality name='790'  nOcc='23'/>
+		<Modality name='150'  nOcc='8'/>
+		<Modality name='970'  nOcc='3'/>
+		<Modality name='900'  nOcc='2'/>
+		<Modality name='930'  nOcc='2'/>
+		<Modality name='960'  nOcc='1'/>
+	</Var>
+	</NominalVariables>
+	<BinaryVariables>
+	</BinaryVariables>
+	<Summary>
+   <Var name='Year' idx='0' nMiss='0' nDiff='16' mean='2009.38' stdDev='4.631' median='2009' min='2002' max='2017'/>
+   <Var name='account_yy_ss' idx='1' nMiss='0' nDiff='32' mean='20100.3' stdDev='46.3121' median='20097' min='20026' max='20177'/>
+   <Var name='amount_not_reimb' idx='2' nMiss='0' nDiff='305502' mean='70.3783' stdDev='1630.49' median='0.74' min='-118298' max='3.437e+006'/>
+   <Var name='amount_reimb' idx='3' nMiss='0' nDiff='704494' mean='817.03' stdDev='17223.8' median='1.87' min='-2.07179e+006' max='4.53347e+006'/>
+   <Var name='quantity' idx='4' nMiss='0' nDiff='51971' mean='338.557' stdDev='5393.23' median='20' min='-3.77859e+006' max='9.02875e+006'/>
+   <Var name='realization_date' idx='5' nMiss='0' nDiff='123' mean='20093.1' stdDev='46.9985' median='20093' min='19891' max='20174'/>
+   <Var name='reimbt_cat_id' idx='6' nMiss='0' nDiff='527' mean='753249' stdDev='4027.72' median='753723' min='695052' max='767502'/>
+   <Var name='Province' nMiss='0' nDiff='12' idx='7'/>
+   <Var name='Type' nMiss='0' nDiff='3' idx='8'/>
+   <Var name='hosp_serv_id' nMiss='0' nDiff='62' idx='9'/>
+	</Summary>
+</TIM_Audit>
